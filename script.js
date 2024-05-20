@@ -112,7 +112,6 @@ window.addEventListener("keydown",(e) => {
     }else if (e.key === "Enter"){
         executedOperation();
     }else if (e.key === "Delete"){
-        console.log(e.key)
         restButonHandler();
     }
 });
